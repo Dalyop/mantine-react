@@ -1,6 +1,8 @@
 import { Outlet } from 'react-router-dom';
 import { AppShell, AppShellHeader, AppShellNavbar, AppShellFooter, AppShellMain, AppShellSection, Flex } from '@mantine/core';
 import { DarkMode } from '../components/DarkModeButton/DarkMode';
+import { Navbar } from '@/components/Navbar/Navbar';
+import { Footer } from '@/components/Footer/Footer';
 
 export default function AuthLayout() {
   return (
@@ -11,7 +13,7 @@ export default function AuthLayout() {
     >
       <AppShellHeader style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: 10,}}>
         <AppShellSection px="md">
-          <h2>Header Content</h2>
+          < Navbar />
         </AppShellSection>
         <AppShellSection>
           <DarkMode />
@@ -24,9 +26,10 @@ export default function AuthLayout() {
 
       <AppShellFooter>
         <AppShellSection px="md">
-          <p>Footer content</p>
+          <Footer />
         </AppShellSection>
       </AppShellFooter>
+
     </AppShell>
   );
 }

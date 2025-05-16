@@ -440,7 +440,7 @@
   dependencies:
     buffer "^6.0.3"
 
-"@mantine/core@7.17.5":
+"@mantine/core@>=7.0.0", "@mantine/core@7.17.5":
   version "7.17.5"
   resolved "https://registry.npmjs.org/@mantine/core/-/core-7.17.5.tgz"
   integrity sha512-66g/lr281cDPfucjtPw8gFo/yNS9G5iSKqysvPGuDpUBG2bEw8FsJMIsU0bMXtravToIpa3vJRrFUuPndPGnpQ==
@@ -452,10 +452,15 @@
     react-textarea-autosize "8.5.9"
     type-fest "^4.27.0"
 
-"@mantine/hooks@7.17.5":
+"@mantine/hooks@>=7.0.0", "@mantine/hooks@7.17.5":
   version "7.17.5"
   resolved "https://registry.npmjs.org/@mantine/hooks/-/hooks-7.17.5.tgz"
   integrity sha512-Q/3AHI1fjl+W7xQ3jEoMmSoTxLqxMI2gPfxIjd73OPmRpPenYWR1zk/diirXXm2t7JOrAbmpA3/O1gzmgqzc/Q==
+
+"@mantinex/mantine-logo@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@mantinex/mantine-logo/-/mantine-logo-2.0.0.tgz"
+  integrity sha512-HfO0twXEMoGftJGTVaixwI7ABUmyBafT/AQQM1MWKw4Q4ZwjMURKBxhz5JFGhc4MHysKRo2E3jaAtXuHydyfcA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -496,6 +501,11 @@
   version "4.40.1"
   resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.40.1.tgz"
   integrity sha512-XiK5z70PEFEFqcNj3/zRSz/qX4bp4QIraTy9QjwJAb/Z8GM7kVUsD0Uk8maIPeTyPCP03ChdI+VVmJriKYbRHQ==
+
+"@rollup/rollup-linux-x64-musl@4.40.1":
+  version "4.40.1"
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.40.1.tgz"
+  integrity sha512-2BRORitq5rQ4Da9blVovzNCMaUlyKrzMSvkVR0D4qPuOy/+pMCrh1d7o01RATwVy+6Fa1WBw+da7QPeLWU/1mQ==
 
 "@rollup/rollup-win32-x64-msvc@4.40.1":
   version "4.40.1"
